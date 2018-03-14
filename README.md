@@ -17,6 +17,8 @@ $ ./install-GPIO-db410c.sh
 ### 96board GPIO PIN Map (DragonBoard410c)
 ![](/assets/96board_db410_GPIO.png)
 
+GPIO Pin Map is defined of libsoc/contrib/board_files/dragonboard410c.conf
+
 
 ### Test H/W
 ![](/assets/dragonboard410c_96boardGPIO_test.png)
