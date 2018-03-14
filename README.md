@@ -10,6 +10,7 @@ $ sudo apt-get dist-upgrade
 
 ### Run setup script
 ```
+$ git clone https://github.com/roykang75/96BoardsGPIO_setup.git
 $ chmod +x install-GPIO-db410c.sh
 $ ./install-GPIO-db410c.sh
 ```
