@@ -14,7 +14,7 @@ $ chmod +x install-GPIO-db410c.sh
 $ ./install-GPIO-db410c.sh
 ```
 
-Here is 96board blog
+Here is 96board blog  
 https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/
 
 
