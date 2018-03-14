@@ -14,6 +14,23 @@ $ chmod +x install-GPIO-db410c.sh
 $ ./install-GPIO-db410c.sh
 ```
 
+### 96board GPIO PIN Map (DragonBoard410c)
+![](/assets/96board_db410_GPIO.png)
+
+
+### Test H/W
+![](/assets/dragonboard410c_96boardGPIO_test.png)
+
+
+### Test code
+```
+$ git clone https://github.com/dmandala/library_test.git
+$ cd library_test
+$ gcc AC-ledGPIO.c -o AC-ledGPIO -lsoc -l96BoardsGPIO
+$ sudo ./AC_ledGPIO
+```
+
+
 Here is 96board blog  
 https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/
 
