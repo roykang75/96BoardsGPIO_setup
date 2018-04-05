@@ -29,26 +29,3 @@ cd 96BoardsGPIO
 make && sudo make install
 sudo ldconfig /usr/local/lib
 cd ..
-
-echo "Install and build MRAA library"
-echo "git clone https://github.com/intel-iot-devkit/mraa.git"
-git clone https://github.com/intel-iot-devkit/mraa.git
-mkdir -p mraa/build
-cd mraa/build
-cmake ..
-make
-sudo make install
-sudo ldconfig /usr/local/lib
-
-echo "Install and build UPM library"
-sudo ln -s /usr/bin/swig3.0 /usr/bin/swig
-echo "git clone https://github.com/roykang75/upm.git"
-git clone https://github.com/roykang75/upm.git
-mkdir -p upm/build
-cd upm/build
-cmake -DBUILDSWIGNODE=OFF ..
-make
-sudo make install
-sudo ldconfig /usr/local/lib/libump-*
-
-
